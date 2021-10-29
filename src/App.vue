@@ -11,7 +11,7 @@
 		</div>
 	</nav>
     <router-view></router-view>
-	<footer>Made with ❤️ by Oindrila Ray with VueJS</footer>
+	<footer>Made with ❤️ by Kamal Nanda with VueJS</footer>
   </div>
 </template>
 
