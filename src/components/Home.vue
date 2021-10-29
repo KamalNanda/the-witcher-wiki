@@ -36,8 +36,8 @@
 		}
 	}
 </script>	
-<style>
-	#home{
+<style> 
+  #home{
 		width: 80%;
 		margin: 40px 10%;
 		font-family: monospace; 
@@ -73,8 +73,16 @@
 		.grid-element:hover{
 			transform: scale(1.2)
 		}
-		@media (max-width: 500px){
-			#home{
+		@media (max-width: 786px){
+			#home-grid{
+				grid-template-columns: 1fr 1fr;
+			}
+			#searchbar input {
+				width : 70%;
+			}
+		}
+		@media (max-width: 525px){
+			#home-grid{
 				grid-template-columns: 1fr;
 			}
 		}
