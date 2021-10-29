@@ -41,16 +41,14 @@ export default {
 </script>
 <style>
 	#About{
-		display: flex;
+		display: block;
 		width:80%;
 		margin: 60px 10%;
 		color: white;
 	}
-	.about-flex-left{
-		width:50%;
+	.about-flex-left{ 
 	}
-	.about-flex-right{
-		width: 50%;
+	.about-flex-right{ 
 		background-color:black;
 		display: grid;
 		align-items: center;
